@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UMCStudy2" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <!-- splash Screeen Theme -->
+    <style name="AppTheme.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/component_16</item>
+        <item name="windowSplashScreenAnimationDuration">8000</item>
+        <item name="postSplashScreenTheme">@style/Theme.UMCStudy2</item>
+    </style>
+</resources>
